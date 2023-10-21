@@ -24,13 +24,15 @@
 </template>
 
 <script>
-import { mapStores } from "pinia";
+import { mapStores, mapState, mapWritableState } from "pinia";
 import useModalStore from "@/stores/modal";
 
 export default {
   name: "AppHeader",
   computed: {
-    ...mapStores(useModalStore)
+    ...mapStores(useModalStore),          // used for mapping the entire store e.g. !this.mapStores.isOpen
+    ...mapWritableState(useModalStore, ["isOpen"]),  //  used for mapping the properties passed in the second argument e.g. !this.isOpen
+    ...mapState(useModalStore, ["isOpen"]) //  used for mapping the properties passed in the second argument. readonly, can't edit
   },
   methods: {
     toggleAuthModal() {
