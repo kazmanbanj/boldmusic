@@ -16,8 +16,12 @@ const routes = [
   },
   {
     name: 'manage',
+    // alias: '/manage',
     path: '/manage-music',
-    component: Manage
+    component: Manage,
+    beforeEnter: (to, from, next) => {
+      next();
+    }
   },
   {
     path: '/manage',
@@ -35,24 +39,7 @@ const router = createRouter({
   routes,
   linkExactActiveClass: 'text-yellow-500'
 
-
-
-
-
   // : [
-    // {
-    //   path: '/',
-    //   name: 'home',
-    //   component: Home
-    // },
-    // {
-    //   path: '/about',
-    //   name: 'about',
-    //   // route level code-splitting
-    //   // this generates a separate chunk (About.[hash].js) for this route
-    //   // which is lazy-loaded when the route is visited.
-    //   component: () => import('../views/About.vue'),
-    // },
     // {
     //   path: '/contact',
     //   name: 'contact',
@@ -62,6 +49,10 @@ const router = createRouter({
     //   component: () => import('../views/Contact.vue')
     // }
   // ]
+});
+
+router.beforeEach((to, from, next) => {
+  next();
 })
 
 export default router
