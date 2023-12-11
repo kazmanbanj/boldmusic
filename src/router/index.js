@@ -5,18 +5,18 @@ import Manage from '@/views/Manage.vue';
 
 const routes = [
   {
-    path: "/",
     name: 'home',
+    path: '/',
     component: Home
   },
   {
-    path: "/about",
     name: 'about',
+    path: '/about',
     component: About
   },
   {
-    path: "/manage",
     name: 'manage',
+    path: '/manage',
     component: Manage
   }
 ];
@@ -24,7 +24,8 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes
+  routes,
+  linkExactActiveClass: 'text-yellow-500'
 
 
 
