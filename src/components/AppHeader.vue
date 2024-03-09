@@ -27,6 +27,14 @@
               </li>
             </template>
           </ul>
+
+          <ul class="ml-auto">
+            <li>
+              <a class="px-2 text-white" href="#" @click.prevent="changeLocale">
+                {{ currentLocale }}
+              </a>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
@@ -42,7 +50,10 @@ export default {
   computed: {
     ...mapStores(useModalStore, useUserStore),          // used for mapping the entire store e.g. !this.mapStores.isOpen
     ...mapWritableState(useModalStore, ["isOpen"]),  //  used for mapping the properties passed in the second argument e.g. !this.isOpen
-    ...mapState(useModalStore, ["isOpen"]) //  used for mapping the properties passed in the second argument. readonly, can't edit
+    ...mapState(useModalStore, ["isOpen"]), //  used for mapping the properties passed in the second argument. readonly, can't edit
+    currentLocale() {
+      return this.$i18n.locale === "fr" ? "French" : "English";
+    }
   },
   methods: {
     toggleAuthModal() {
@@ -54,6 +65,9 @@ export default {
       if (this.$route.meta.requiresAuth) {
         this.$router.push({ name: "home" });
       }
+    },
+    changeLocale() {
+      this.$i18n.locale = this.$i18n.locale === "fr" ? "en" : "fr";
     }
   }
 }
