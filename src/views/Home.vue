@@ -10,10 +10,7 @@
         <div class="text-white main-header-content">
           <h1 class="font-bold text-5xl mb-5">{{ $t("home.listen") }}</h1>
           <p class="w-full md:w-8/12 mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            et dolor mollis, congue augue non, venenatis elit. Nunc justo eros,
-            suscipit ac aliquet imperdiet, venenatis et sapien. Duis sed magna
-            pulvinar, fringilla lorem eget, ullamcorper urna.
+            Welcome to Bold Music, where your voice meets the beat! Dive into a world of rhythm and melody as you upload your tunes and discover tracks from fellow music aficionados. With Bold Music, the stage is yours to share and savor the soundscapes that inspire you. Let your music speak volumes—join the community today!
           </p>
         </div>
       </div>
