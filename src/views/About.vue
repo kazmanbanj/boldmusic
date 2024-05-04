@@ -1,9 +1,9 @@
 <template>
   <main>
     <section class="mb-8 py-20 text-center relative">
-      <div class="about">
+      <div class="about w-full md:w-8/12 mx-auto">
         <h1 class="font-bold text-2xl">
-          At Bold Music, we believe that music is more than just sound—it’s an experience that connects us, inspires us, and moves us. Whether you’re a seasoned music aficionado or just beginning your melodic journey, Bold Music is here to accompany you every step of the way.
+          Welcome to Bold Music, where creativity meets community!
         </h1>
         <br>
         <br>
@@ -12,44 +12,19 @@
         </h1>
 
         <h1 class="font-bold text-1xl">
-          Bold Music isn’t just another music app—it’s your personal gateway to a world of rhythm, melody, and harmony. Our mission is simple: to empower you to explore, discover, and enjoy music like never before. With a vast library spanning genres, artists, and eras, there’s always something new to uncover and explore.
-        </h1>
-
-        <br>
-        <br>
-        <h1 class="font-bold text-2xl">
-          Features Designed for You
-        </h1>
-
-        <h1 class="font-bold text-1xl">
-          We understand that every listener is unique, which is why Bold Music offers a range of features designed to cater to your individual preferences. From personalized playlists curated just for you to intuitive search and discovery tools, finding your next favorite track has never been easier.
-        </h1>
-
-        <br>
-        <br>
-        <h1 class="font-bold text-2xl">
-          Connect and Share with Fellow Music Lovers
-        </h1>
-        <h1 class="font-bold text-1xl">
-          Music is a universal language that transcends boundaries, and at Bold Music, we believe in fostering a vibrant community of music lovers from around the globe. Connect with fellow enthusiasts, share your favorite tracks and playlists, and discover new music through the eyes and ears of others who share your passion.
-        </h1>
-
-        <br>
-        <br>
-        <h1 class="font-bold text-2xl">
-          Your Music, Your Way
-        </h1>
-        <h1 class="font-bold text-1xl">
-          With Bold Music, you’re in control of your listening experience. Whether you’re on the go, at home, or somewhere in between, access your favorite tunes seamlessly across all your devices. Customize your playlists, create the perfect soundtrack for any occasion, and let the music take you on a journey wherever you may roam.
-        </h1>
-
-        <br>
-        <br>
-        <h1 class="font-bold text-2xl">
-          Join the Bold Music Family
-        </h1>
-        <h1 class="font-bold text-1xl">
-          Join us on a musical adventure unlike any other. Whether you’re seeking inspiration, relaxation, or simply a way to groove to the beat, Bold Music is your destination for all things melodic. So, what are you waiting for? Dive in, turn up the volume, and let the music speak for itself. Welcome to Bold Music—where every beat resonates with passion.
+          At Bold Music, we're passionate about empowering musicians to share their artistry with the world. Our platform is designed for music lovers, creators, and enthusiasts alike. Whether you're a seasoned artist or just starting out, Bold Music provides the perfect space to upload, discover, and enjoy incredible tunes.
+<br>
+<br>
+          What sets Bold Music apart? It's simple. We're all about YOU – the artists and listeners who make our platform come alive. With easy-to-use tools for uploading your tracks and creating personalized playlists, you have the freedom to curate your musical journey like never before.
+<br>
+<br>
+          But Bold Music is more than just a platform. It's a vibrant community where musicians connect, collaborate, and thrive. Join discussions, share insights, and support fellow creators on their musical endeavors. Together, we're building a space where talent knows no bounds and creativity knows no limits.
+<br>
+<br>
+          Whether you're into indie rock, electronic beats, hip-hop, or classical melodies, Bold Music has something for everyone. Our diverse catalog features a wide range of genres and styles, ensuring that you'll always find the perfect soundtrack for any moment.
+<br>
+<br>
+          So, why wait? Dive into the world of Bold Music today and let your sound be heard. Join us in celebrating the bold, the innovative, and the extraordinary – because when it comes to music, there's no such thing as playing it safe. Let's make some noise together!
         </h1>
       </div>
     </section>
