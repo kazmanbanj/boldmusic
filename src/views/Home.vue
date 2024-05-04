@@ -20,8 +20,8 @@
 
       <img
         class="relative block mx-auto mt-5 -mb-20 w-auto max-w-full"
-        src="assets/img/introduction-music.png"
       />
+        <!-- src="assets/img/introduction-music.png" removed from the img element above-->
     </section>
 
     <!-- Main Content -->
