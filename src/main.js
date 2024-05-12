@@ -8,11 +8,16 @@ import { auth } from "./includes/firebase"
 import Icon from './directives/icon';
 import i18n from './includes/i18n';
 import { registerSW } from "virtual:pwa-register";
+import GlobalComponent from "./includes/_globals";
+import ProgressBar from "./includes/progress-bar";
 
 import './assets/base.css';
 import './assets/main.css';
+import "nprogress/nprogress.css";
 
 registerSW({ immediate: true });
+
+ProgressBar(router);
 
 let app;
 
@@ -24,6 +29,7 @@ auth.onAuthStateChanged(() => {
         app.use(router);
         app.use(VeeValidate);
         app.use(i18n);
+        app.use(GlobalComponent);
         app.directive("icon", Icon);
 
         app.mount('#app')
