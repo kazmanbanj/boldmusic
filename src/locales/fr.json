@@ -1,8 +1,16 @@
 {
     "home": {
-        "listen": "Écoutez de la bonne musique !"
+        "listen": "Écoutez de la bonne musique !",
+        "description": "Bienvenue chez Bold Music, où votre voix rencontre le rythme ! Plongez dans un monde de rythme et de mélodie en téléchargeant vos morceaux et en découvrant des pistes de la part d'autres mélomanes. Avec Bold Music, la scène vous appartient pour partager et savourer les paysages sonores qui vous inspirent. Laissez votre musique parler haut et fort - rejoignez la communauté dès aujourd'hui !",
+        "song": "Chansons"
+
     },
     "manage": {
         "my_songs": "Mes chansons"
+    },
+    "about": {
+        "heading": "Bienvenue chez Bold Music, là où la créativité rencontre la communauté..",
+        "title": "Renforcer Votre Parcours Musical",
+        "desc": "À Bold Music, nous sommes passionnés par l'émancipation des musiciens pour qu'ils partagent leur art avec le monde. Notre plateforme est conçue pour les amateurs de musique, les créateurs et les passionnés de musique. Que vous soyez un artiste chevronné ou que vous commenciez tout juste, Bold Music offre l'espace parfait pour télécharger, découvrir et apprécier des morceaux incroyables. Qu'est-ce qui différencie Bold Music? C'est simple. Nous sommes tous à propos de VOUS - les artistes et les auditeurs qui donnent vie à notre plateforme. Avec des outils faciles à utiliser pour télécharger vos pistes et créer des listes de lecture personnalisées, vous avez la liberté de créer votre parcours musical comme jamais auparavant. Mais Bold Music est plus qu'une simple plateforme. C'est une communauté dynamique où les musiciens se connectent, collaborent et prospèrent. Rejoignez les discussions, partagez des idées et soutenez les autres créateurs dans leurs projets musicaux. Ensemble, nous construisons un espace où le talent n'a pas de limites et la créativité ne connaît pas de bornes. Que vous soyez fan de rock indépendant, de beats électroniques, de hip-hop ou de mélodies classiques, Bold Music a quelque chose pour tout le monde. Notre catalogue diversifié propose une large gamme de genres et de styles, garantissant que vous trouverez toujours la bande-son parfaite pour chaque instant. Alors, pourquoi attendre? Plongez dans le monde de Bold Music aujourd'hui et faites entendre votre son. Rejoignez-nous pour célébrer l'audacieux, l'innovant et l'extraordinaire - car en matière de musique, il n'y a pas de sécurité. Faisons du bruit ensemble!"
     }
 }

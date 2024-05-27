@@ -1,15 +1,22 @@
 {
     "home": {
-        "listen": "Listen to Great Music!"
+        "listen": "Listen to Great Music!",
+        "description": "Welcome to Bold Music, where your voice meets the beat! Dive into a world of rhythm and melody as you upload your tunes and discover tracks from fellow music aficionados. With Bold Music, the stage is yours to share and savor the soundscapes that inspire you. Let your music speak volumes—join the community today!",
+        "song": "Songs"
     },
     "song": {
         "comment_count": "No comments | 1 comment | {count} comments"
     },
     "register": {
-        "accept": "I accept Music's {0}",
+        "accept": "I accept Music\"s {0}",
         "tos": "Terms of Service"
     },
     "manage": {
         "my_songs": "My Songs"
+    },
+    "about": {
+        "heading": "Welcome to Bold Music, where creativity meets community!",
+        "title": "Empowering Your Musical Journey",
+        "desc": "At Bold Music, we\"re passionate about empowering musicians to share their artistry with the world. Our platform is designed for music lovers, creators, and enthusiasts alike. Whether you\"re a seasoned artist or just starting out, Bold Music provides the perfect space to upload, discover, and enjoy incredible tunes.  What sets Bold Music apart? It\"s simple. We\"re all about YOU – the artists and listeners who make our platform come alive. With easy-to-use tools for uploading your tracks and creating personalized playlists, you have the freedom to curate your musical journey like never before. Bold Music is more than just a platform. It\"s a vibrant community where musicians connect, collaborate, and thrive. Join discussions, share insights, and support fellow creators on their musical endeavors. Together, we\"re building a space where talent knows no bounds and creativity knows no limits. Whether you\"re into indie rock, electronic beats, hip-hop, or classical melodies, Bold Music has something for everyone. Our diverse catalog features a wide range of genres and styles, ensuring that you\"ll always find the perfect soundtrack for any moment. So, why wait? Dive into the world of Bold Music today and let your sound be heard. Join us in celebrating the bold, the innovative, and the extraordinary – because when it comes to music, there\"s no such thing as playing it safe. Let\"s make some noise together!"
     }
 }
