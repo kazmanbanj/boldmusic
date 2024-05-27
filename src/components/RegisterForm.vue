@@ -119,7 +119,7 @@ export default {
                 tos: "tos_required",
             },
             userData: {
-                country: 'USA'
+                country: 'Nigeria'
             },
             reg_in_submission: false,
             reg_show_alert: false,
