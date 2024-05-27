@@ -10,7 +10,7 @@
         <div class="text-white main-header-content">
           <h1 class="font-bold text-5xl mb-5">{{ $t("home.listen") }}</h1>
           <p class="w-full md:w-8/12 mx-auto">
-            Welcome to Bold Music, where your voice meets the beat! Dive into a world of rhythm and melody as you upload your tunes and discover tracks from fellow music aficionados. With Bold Music, the stage is yours to share and savor the soundscapes that inspire you. Let your music speak volumes—join the community today!
+            {{ $t("home.description") }}
           </p>
         </div>
       </div>
@@ -27,7 +27,7 @@
         class="bg-white rounded border border-gray-200 relative flex flex-col"
       >
         <div class="px-6 pt-6 pb-5 font-bold border-b border-gray-200" v-icon-secondary="{ icon: 'headphones-alt', right: true }">
-          <span class="card-title">Songs</span>
+          <span class="card-title">{{ $t("home.song") }}</span>
           <!-- Icon -->
           <!-- <i class="fa fa-headphones-alt float-right text-green-400 text-xl"></i> -->
         </div>
