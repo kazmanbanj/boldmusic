@@ -1,5 +1,7 @@
 A music application built with Vue.js on the frontend and Firebase for backend services including authentication, database, and hosting.
 
+https://boldmusic.netlify.app
+
 # vuemusic
 
 This template should help get you started developing with Vue 3 in Vite.
